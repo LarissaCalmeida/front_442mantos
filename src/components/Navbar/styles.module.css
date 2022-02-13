@@ -1,0 +1,26 @@
+.containerNav {  
+    background: #F5F9F4;
+}
+
+.containerNav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 0;
+}
+
+.containerNav ul {
+    display: flex;
+    align-items: center;
+}
+
+.containerNav .links li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.containerNav .links a {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000000;
+    text-decoration: none;
+}

@@ -1,0 +1,48 @@
+.containerCard {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+
+    border-top: 2px solid #27B48A;
+    width: 288px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.containerCard .nameProduct {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.71);
+    display: block;
+    margin-top: 1rem;
+}
+
+.containerCard .info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.containerCard .info strong {
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.71);
+}
+
+.containerCard .info span {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.71);
+}
+
+.containerCard .info div {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerCard button {
+    background: none;
+}

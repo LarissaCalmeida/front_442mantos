@@ -1,0 +1,134 @@
+.container header {
+  background: #F5F9F4;
+  padding: 8rem 0;
+}
+
+.container header .subtitle {
+  display: block;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 21px;
+  color: #27B48A;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.container header .title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.container header .description {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 25px;
+
+  color: rgba(0, 0, 0, 0.65);
+  margin-bottom: 3rem;
+
+}
+
+.container header .btn_header {
+  background: #27B48A;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #F5F9F4;
+  
+}
+
+.containerInfo .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerInfo span {
+  text-align: center;
+}
+
+.containerInfo .mgTop {
+  margin-top: 1rem;
+  display: block;
+}
+
+.rowInfo {
+  display: flex;
+  align-items: center;
+}
+
+.containerInfo {
+  background: #E9F2E6;
+  padding: 4rem 0;
+}
+
+.containerProduct {
+  padding: 8rem 0;
+  background: #F5F9F4;
+}
+
+.containerProduct > div {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.containerProduct .titleSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.containerProduct .titleSection span{
+  font-weight: 700;
+  font-size: 18px;
+  color: #27B48A;
+  text-transform: uppercase;
+}
+
+.containerProduct .titleSection h2,
+.containerTestimony .titleSection h2{
+  font-weight: 500;
+  font-size: 36px;
+  color: #000000;
+}
+
+.containerProduct .btn_product{
+  background: #27B48A;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #F5F9F4;
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  margin-top: 5rem;
+  align-self: center;
+}
+
+.containerTestimony {
+  background: #E9F2E6;
+  padding: 8rem 0;
+}
+
+.containerTestimony .titleSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.containerTestimony .titleSection span {
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.3);
+
+}

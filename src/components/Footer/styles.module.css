@@ -1,0 +1,89 @@
+.containerFooter {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.containerFooter .info {
+    background: #2E3230;
+    padding: 4rem 0;
+}
+
+.containerFooter .fale_conosco strong{
+    font-weight: 500;
+    font-size: 18px;
+    color: #27B48A;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.containerFooter .fale_conosco ul {
+    margin: 0;
+    padding: 0;
+}
+
+.containerFooter .fale_conosco li {
+    font-weight: 500;
+    font-size: 14px;
+    list-style-type: none;
+    color: #F5F9F4;
+    margin-bottom: 16px;
+}
+
+.containerFooter .copyright {
+    background: #27B48A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.containerFooter .copyright span {
+    font-weight: 500;
+    font-size: 18px;
+    color: #F5F9F4;
+}
+
+.containerFooter .social_media strong {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #F5F9F4;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.containerFooter .social_media ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.containerFooter .social_media li:first-child {
+    margin-right: 1rem;
+}
+
+.containerFooter .developer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.containerFooter .developer strong {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #F5F9F4;
+}
+
+.containerFooter .developer span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #3EBCE3;
+
+}
