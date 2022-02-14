@@ -1,0 +1,98 @@
+.container main {
+    background: #F5F9F4;
+    padding: 8rem 0;
+}
+
+.containerCheckout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container strong {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container span {
+    color: #27B48A;
+}
+
+.container .fieldInput {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .fieldInput h2 {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.container .fieldInput input,
+.container .fieldInput select {
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    height: 50px;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+
+.container .smInput {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.container .smInput input,
+.container .smInput select {
+    width: 48%;
+}
+
+.container .fieldInput span {
+    font-size: 16px;
+    color: #000;
+}
+
+.container .inputRadio {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .inputRadio label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1rem;
+    cursor: pointer;
+} 
+
+.container .inputRadio input {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.container .dividir {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.container .dividir span {
+    margin-bottom: 10px;
+}
+
+.container form button {
+    background: #27B48A;
+    border: 1px solid #27B48A;
+    width: 100%;
+    height: 50px;
+
+    font-weight: 500;
+    font-size: 24px;
+
+    color: #F5F9F4;
+    margin-top: 2rem;
+}

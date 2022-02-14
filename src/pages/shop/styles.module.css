@@ -1,0 +1,136 @@
+.container {
+    background: #F5F9F4;
+}
+
+.container h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.container main {
+    padding: 8rem 0;
+}
+
+.container main > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.container table {
+    margin: 2rem 0;
+}
+
+.container table .containerProduct img {
+    width: 130px;
+    height: 130px;
+    margin-right: 1rem;
+}
+
+.container table .containerProduct {
+    display: flex;
+}
+
+.container .containerProduct .description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.container .containerProduct .description div {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .containerProduct .description button {
+    background: none;
+    padding: 0;
+    font-weight: 500;
+    font-size: 12px;
+    color: #E62A34;
+}
+
+.container .containerProduct .description strong {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.container .containerProduct .description span {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container table td {
+    font-weight: 500;
+    font-size: 18px;
+
+    vertical-align: middle;
+}
+
+.container .qtd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .qtd .bgImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: #FFF;
+    cursor: pointer;
+}
+.container .qtd div.bgImage:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.container .qtd div.bgImage:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+.container .qtd > div {
+    display: flex;
+}
+
+.container .qtd input {
+    width: 50px;
+    text-align: center;
+    height: 30px;
+}
+
+.container .checkout {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.container .checkout div {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container .checkout strong {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.container .checkout span {
+    color: #A3A5A4;
+    font-size: 14px;
+    width: 240px;
+}
+
+.container .checkout a {
+    background: #27B48A;
+    border-radius: 8px;
+
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 1rem 3rem;
+}

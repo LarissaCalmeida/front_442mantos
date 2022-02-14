@@ -1,0 +1,52 @@
+.container {
+    background: #27B48A;
+    height: 100vh;
+}
+
+.container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.container form {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+}
+
+.container form h2 {
+    font-weight: 500;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.container form span {
+    font-size: 18px;
+    color: #F5F9F4;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.container form input {
+    background: #32CA9D;
+    border-radius: 8px;
+    height: 80px;
+    margin-bottom: 33px;
+    padding: 1rem;
+}
+
+.container form input::placeholder {
+    color: #F5F9F4;
+}
+
+.container form button {
+    height: 80px;
+    border-radius: 8px;
+    background: #374B43;
+
+    font-size: 24px;
+    color: #F5F9F4;
+}

@@ -41,7 +41,7 @@ function Navbar() {
 
             <ul>
                 <li>
-                    <Link href="/">
+                    <Link href="/shop">
                         <a><img src="/images/sacolas-de-compras.png" alt="Comprar" /></a>
                     </Link>
                 </li>

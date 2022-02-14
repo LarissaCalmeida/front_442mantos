@@ -1,0 +1,274 @@
+.container {
+    background: #F5F9F4;
+}
+
+.container main {
+    padding: 8rem 0;
+
+}
+
+.container .images {
+    display: flex;
+}
+
+.container .images > img {
+    width: 313px;
+    height: 313px;
+    object-fit: cover;
+}
+
+.container .imagesSm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
+.container .imagesSm img{
+    width: 98px;
+    height: 98px;
+    margin-bottom: 8.5px;
+}
+
+.container .description h1{
+    font-weight: 500;
+    font-size: 2rem;
+    color: #000000;
+}
+
+.container .description .price {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #27B48A;
+}
+
+.container .description .tamanho,
+.container .description .qtd {
+    margin: 1rem 0;
+}
+
+.container .description .tamanho span,
+.container .description .qtd span {
+    font-size: 18px;
+    color: #000000;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.container .description .tamanho input {
+    display: none;
+}
+
+.container .description .tamanho label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #000000;
+    cursor: pointer;
+
+}
+
+.container .description .tamanho input:checked ~ label {
+    background:#27B48A;
+    color: #fff;
+}
+
+.container .description .tamanho > div {
+    display: flex;
+}
+
+.container .description .tamanho > div div:not(:last-child){
+    margin-right: 0.5rem;
+}
+
+.container .qtd .bgImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.container .qtd div.bgImage:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.container .qtd div.bgImage:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+.container .qtd > div {
+    display: flex;
+}
+
+.container .qtd input {
+    width: 50px;
+    text-align: center;
+}
+
+.container .person strong{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #27B48A;
+    cursor: pointer;
+    display: block;
+    margin: 1rem 0;   
+}
+
+
+
+.container .person div,
+.container .person label {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .person div {
+    display: none;
+}
+
+.container .person input[type="checkbox"] {
+    display: none;
+}
+
+.container .person input:checked ~ div  {
+    display: flex;
+}
+
+.container .person label {
+    margin-bottom: 1rem;
+}
+
+.container .person input {
+    width: 300px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    padding: 1rem;
+    margin-top: 8px;
+}
+
+.container .frete {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+
+
+}
+
+.container .frete p {
+    width: 70%;
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.container .frete p span{
+    font-weight: 700;
+}
+
+.container .frete img {
+    width: 49px;
+    height: 24px;
+}
+
+.container .details {
+    margin: 2rem 0; 
+
+}
+
+.container .details h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+    margin-bottom: 1rem;
+    
+}
+
+.container .details p {
+    margin: 0 0 1rem 0;
+    padding: 0;
+    max-width: 450px;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+
+
+    color: #000000;
+
+}
+
+.container .ficha h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.container .ficha li {
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+
+
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.container .ficha span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #27B48A;
+    
+}
+
+.container .addCarrinho {
+    display: flex;
+    align-items: center;
+}
+
+.container .addCarrinho strong {
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 2rem;
+}
+
+.container .addCarrinho button {
+    background: #70C885;
+    border-radius: 8px; 
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.container .addCarrinho img {
+    margin-right: 8px;
+}
